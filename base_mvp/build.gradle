@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation Dependencies.kotlin
+
+    testImplementation Dependencies.mockitoKotlin
+    testImplementation Dependencies.kluent
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath Plugins.kotlin
+    }
+}
