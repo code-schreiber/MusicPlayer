@@ -1,0 +1,27 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    api project(Projects.baseNetwork)
+
+    implementation Dependencies.kotlin
+
+    kapt Dependencies.daggerCompiler
+    implementation Dependencies.daggerAndroid
+
+    implementation Dependencies.rxAndroid
+
+    testImplementation Dependencies.mockitoKotlin
+    testImplementation Dependencies.kluent
+}
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath Plugins.kotlin
+    }
+}
