@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">MusicPlayer</string>
+
+    <string name="top_artists">Top Artists</string>
+
+    <plurals name="track_count">
+        <item quantity="one">%d track</item>
+        <item quantity="other">%d tracks</item>
+    </plurals>
+
+    <string name="error_no_connection">No Internet Connection</string>
+    <string name="error_default">An unknown error occurred</string>
+
+    <string name="content_description_play_pause">Play/Pause</string>
+
+</resources>
