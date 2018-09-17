@@ -1,0 +1,4 @@
+include Projects.app,
+        Projects.baseMvp,
+        Projects.baseRepository,
+        Projects.baseNetwork

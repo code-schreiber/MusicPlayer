@@ -1,0 +1,25 @@
+# Git ignore file
+
+# Mac OS X Finder and whatnot
+.DS_Store
+.Trashes
+
+# Build files
+.gradle/
+build/
+
+# Android Projects #
+
+# built application files
+*.apk
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio User-specific configurations
+*.iml
+.idea/
