@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    tools:context="com.toolslab.musicplayer.view.player.PlayerActivity">
+
+    <ImageButton
+        android:id="@+id/activity_player_play_pause_button"
+        android:layout_width="@dimen/view_size_huge"
+        android:layout_height="@dimen/view_size_huge"
+        android:background="@color/white"
+        android:contentDescription="@string/content_description_play_pause"
+        android:scaleType="fitXY"
+        tools:src="@drawable/ic_play_circle_outline_black_24dp" />
+
+</LinearLayout>
